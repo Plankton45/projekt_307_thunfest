@@ -1,1 +1,45 @@
-./node-modules
+# IntelliJ IDEA spezifische Dateien
+.idea/
+*.iml
+*.iws
+out/
+
+# MacOS spezifische Dateien (falls auf Mac gearbeitet wird)
+.DS_Store
+
+# Node.js spezifische Dateien
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Logs
+logs
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Umgebungskonfigurationsdateien
+.env
+.env.*.local
+
+# Build-Ausgaben
+dist/
+build/
+tmp/
+temp/
+
+# Testausgaben
+coverage/
+*.lcov
+
+# Optional: VS Code spezifische Dateien
+.vscode/
+
+# Optional: Betriebssystemspezifische Dateien
+Thumbs.db
+desktop.ini
